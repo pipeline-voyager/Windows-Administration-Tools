@@ -1,4 +1,4 @@
-# Windows Admin Toolbox
+# Windows Admin Toolkit
 
 A PowerShell-based Terminal User Interface (TUI) for common Windows administration, diagnostics, networking, system information, user management, and repair tasks.
 

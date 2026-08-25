@@ -4,32 +4,6 @@ A PowerShell-based Terminal User Interface (TUI) for common Windows administrati
 
 ![alt text](assets/SC1-2.png)
 
-<h2>Requirements</h2>
-
-<table border="0" cellpadding="0" cellspacing="0">
-<tr border="0">
-
-<td align="center" border="0">
-<img src="assets/windows.png" width="60">
-<br>
-Windows 10 or later
-</td>
-
-<td align="center" border="0">
-<img src="assets/powershell.png" width="60">
-<br>
-PowerShell 5.1 or later
-</td>
-
-<td align="center" border="0">
-<img src="assets/administrator.png" width="60">
-<br>
-Administrator privileges
-</td>
-
-</tr>
-</table>
-
 ## Features
 
 ### Dashboard

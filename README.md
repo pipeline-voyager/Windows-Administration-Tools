@@ -10,19 +10,36 @@ A PowerShell-based Terminal User Interface (TUI) for common Windows administrati
 
 Displays:
 
-* Hostname
-* Current username
-* Domain
-* Computer manufacturer and model
-* Windows version and build
-* Architecture
-* Last boot time
-* System uptime
-* IPv4 address
-* Default gateway
-* DNS servers
-* Firewall status
-* Current privilege level
+<table>
+  <tr>
+    <th>System Information</th>
+    <th>System Information</th>
+    <th>System Information</th>
+  </tr>
+  <tr>
+    <td>Hostname</td>
+    <td>Current username</td>
+    <td>Domain</td>
+  </tr>
+  <tr>
+    <td>Computer manufacturer and model</td>
+    <td>Windows version and build</td>
+    <td>Architecture</td>
+  </tr>
+  <tr>
+    <td>Last boot time</td>
+    <td>System uptime</td>
+    <td>IPv4 address</td>
+  </tr>
+  <tr>
+    <td>Default gateway</td>
+    <td>DNS servers</td>
+    <td>Firewall status</td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">Current privilege level</td>
+  </tr>
+</table>
 
 ![alt text](assets/SC2-1.png)
 
@@ -30,16 +47,31 @@ Displays:
 
 Provides tools for:
 
-* Ping and packet-loss testing
-* Traceroute
-* DNS lookup
-* Reverse DNS lookup
-* TCP port testing
-* Network adapter information
-* IPv4 and IPv6 addresses
-* Routing table inspection
-* ARP and network neighbor information
-* TCP and UDP connection inspection through Netstat
+<table>
+  <tr>
+    <th>Network Diagnostics</th>
+    <th>Network Diagnostics</th>
+    <th>Network Diagnostics</th>
+  </tr>
+  <tr>
+    <td>Ping and packet-loss testing</td>
+    <td>Traceroute</td>
+    <td>DNS lookup</td>
+  </tr>
+  <tr>
+    <td>Reverse DNS lookup</td>
+    <td>TCP port testing</td>
+    <td>Network adapter information</td>
+  </tr>
+  <tr>
+    <td>IPv4 and IPv6 addresses</td>
+    <td>Routing table inspection</td>
+    <td>ARP and network neighbor information</td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">TCP and UDP connection inspection through Netstat</td>
+  </tr>
+</table>
 
 ![alt text](assets/SC3.png)
 
@@ -53,13 +85,26 @@ The Netstat interface also supports filtering connections by port and refreshing
 
 Provides:
 
-* Disk usage information
-* Volume and filesystem information
-* CHKDSK `/SCAN`
-* SFC `/SCANNOW`
-* DISM `CheckHealth`
-* DISM `ScanHealth`
-* DISM `RestoreHealth`
+<table>
+  <tr>
+    <th>System Health & Storage</th>
+    <th>System Health & Storage</th>
+    <th>System Health & Storage</th>
+  </tr>
+  <tr>
+    <td>Disk usage information</td>
+    <td>Volume and filesystem information</td>
+    <td>CHKDSK <code>/SCAN</code></td>
+  </tr>
+  <tr>
+    <td>SFC <code>/SCANNOW</code></td>
+    <td>DISM <code>CheckHealth</code></td>
+    <td>DISM <code>ScanHealth</code></td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">DISM <code>RestoreHealth</code></td>
+  </tr>
+</table>
 
 ![alt text](assets/SC5.png)
 
@@ -69,12 +114,23 @@ Administrative privileges are required for CHKDSK, SFC, and DISM operations.
 
 Provides:
 
-* Windows version and build information
-* Installed Windows hotfixes
-* `GPUPDATE /FORCE`
-* Windows Update scan
-* Windows Update settings shortcut
-* Windows component cleanup
+<table>
+  <tr>
+    <th>Windows & Updates</th>
+    <th>Windows & Updates</th>
+    <th>Windows & Updates</th>
+  </tr>
+  <tr>
+    <td>Windows version and build information</td>
+    <td>Installed Windows hotfixes</td>
+    <td><code>GPUPDATE /FORCE</code></td>
+  </tr>
+  <tr>
+    <td>Windows Update scan</td>
+    <td>Windows Update settings shortcut</td>
+    <td>Windows component cleanup</td>
+  </tr>
+</table>
 
 ![alt text](assets/SC6.png)
 
@@ -82,12 +138,23 @@ Provides:
 
 Provides:
 
-* Computer and BIOS information
-* RAM information
-* Running processes
-* Windows services
-* Environment variables
-* Recent System event log errors
+<table>
+  <tr>
+    <th>System Diagnostics</th>
+    <th>System Diagnostics</th>
+    <th>System Diagnostics</th>
+  </tr>
+  <tr>
+    <td>Computer and BIOS information</td>
+    <td>RAM information</td>
+    <td>Running processes</td>
+  </tr>
+  <tr>
+    <td>Windows services</td>
+    <td>Environment variables</td>
+    <td>Recent System event log errors</td>
+  </tr>
+</table>
 
 ![alt text](assets/SC7.png)
 
@@ -95,10 +162,21 @@ Provides:
 
 Provides:
 
-* Current Windows identity
-* Local user enumeration
-* Local group enumeration
-* Local user renaming
+<table>
+  <tr>
+    <th>Windows User & Group Management</th>
+    <th>Windows User & Group Management</th>
+    <th>Windows User & Group Management</th>
+  </tr>
+  <tr>
+    <td>Current Windows identity</td>
+    <td>Local user enumeration</td>
+    <td>Local group enumeration</td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">Local user renaming</td>
+  </tr>
+</table>
 
 ![alt text](assets/SC8.png)
 
@@ -108,11 +186,22 @@ Renaming a local user requires administrator privileges.
 
 Provides common network repair operations:
 
-* Flush DNS cache
-* Renew DHCP lease
-* Reset Winsock
-* Reset TCP/IP
-* Network reset recommendations
+<table>
+  <tr>
+    <th>Network Reset & Recovery</th>
+    <th>Network Reset & Recovery</th>
+    <th>Network Reset & Recovery</th>
+  </tr>
+  <tr>
+    <td>Flush DNS cache</td>
+    <td>Renew DHCP lease</td>
+    <td>Reset Winsock</td>
+  </tr>
+  <tr>
+    <td>Reset TCP/IP</td>
+    <td colspan="2" align="center">Network reset recommendations</td>
+  </tr>
+</table>
 
 ![alt text](assets/SC9.png)
 
@@ -122,8 +211,19 @@ Operations that can affect network connectivity require confirmation before exec
 
 Generates:
 
-* Network reports
-* System reports
+<table>
+  <tr>
+    <th>Reports</th>
+    <th>Reports</th>
+    <th>Reports</th>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">Network reports</td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">System reports</td>
+  </tr>
+</table>
 
 ![alt text](assets/SC10-2.png)
 
@@ -188,16 +288,31 @@ The toolbox can run as a standard user, but several operations require an elevat
 
 Administrator privileges are required for operations such as:
 
-* CHKDSK
-* SFC
-* DISM
-* Windows Update scanning
-* Component cleanup
-* Local user management
-* DNS flushing
-* DHCP renewal
-* Winsock reset
-* TCP/IP reset
+<table>
+  <tr>
+    <th>System Repair & Recovery</th>
+    <th>System Repair & Recovery</th>
+    <th>System Repair & Recovery</th>
+  </tr>
+  <tr>
+    <td>CHKDSK</td>
+    <td>SFC</td>
+    <td>DISM</td>
+  </tr>
+  <tr>
+    <td>Windows Update scanning</td>
+    <td>Component cleanup</td>
+    <td>Local user management</td>
+  </tr>
+  <tr>
+    <td>DNS flushing</td>
+    <td>DHCP renewal</td>
+    <td>Winsock reset</td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">TCP/IP reset</td>
+  </tr>
+</table>
 
 The application detects whether it is running with administrator privileges and displays the current privilege level in the interface.
 
@@ -207,14 +322,27 @@ This tool executes Windows administrative commands and system configuration oper
 
 Review an operation before executing it, especially:
 
-* SFC
-* DISM RestoreHealth
-* CHKDSK
-* User account changes
-* Winsock reset
-* TCP/IP reset
-* DHCP renewal
-* Component cleanup
+<table>
+  <tr>
+    <th>System Repair & Recovery</th>
+    <th>System Repair & Recovery</th>
+    <th>System Repair & Recovery</th>
+  </tr>
+  <tr>
+    <td>SFC</td>
+    <td>DISM RestoreHealth</td>
+    <td>CHKDSK</td>
+  </tr>
+  <tr>
+    <td>User account changes</td>
+    <td>Winsock reset</td>
+    <td>TCP/IP reset</td>
+  </tr>
+  <tr>
+    <td>DHCP renewal</td>
+    <td colspan="2" align="center">Component cleanup</td>
+  </tr>
+</table>
 
 Some operations can temporarily interrupt network connectivity or modify system configuration.
 

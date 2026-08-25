@@ -6,41 +6,31 @@ A PowerShell-based terminal user interface for common Windows administration, di
 
 <h2>Requirements</h2>
 
+<div align="center">
+
 <table>
 <tr>
-
-<td align="center">
-
+<td align="center" style="border: none;">
 <img src="assets/windows.png" width="60">
-
 <br>
-
 Windows 10 or later
-
 </td>
 
-<td align="center">
-
+<td align="center" style="border: none;">
 <img src="assets/powershell.png" width="60">
-
 <br>
-
 PowerShell 5.1 or later
-
 </td>
 
-<td align="center">
-
+<td align="center" style="border: none;">
 <img src="assets/administrator.png" width="60">
-
 <br>
-
 Administrator privileges
-
 </td>
-
 </tr>
 </table>
+
+</div>
 
 ## Features
 

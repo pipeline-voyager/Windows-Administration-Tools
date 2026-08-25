@@ -207,7 +207,7 @@ No additional PowerShell modules or external dependencies are required beyond th
 Open PowerShell and execute:
 
 ```powershell
-.\WindowsAdminToolbox.ps1
+.\Windows_Admin_Toolbox_v1.ps1
 ```
 
 For full functionality, start PowerShell as Administrator before running the script.

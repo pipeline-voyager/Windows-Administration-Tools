@@ -8,27 +8,17 @@ A PowerShell-based terminal user interface for common Windows administration, di
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" style="border: none;">
-<img src="assets/windows.png" width="60">
-<br>
-Windows 10 or later
-</td>
-
-<td align="center" style="border: none;">
-<img src="assets/powershell.png" width="60">
-<br>
-PowerShell 5.1 or later
-</td>
-
-<td align="center" style="border: none;">
+<img src="assets/windows.png" width="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="assets/powershell.png" width="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="assets/administrator.png" width="60">
+
 <br>
+
+Windows 10 or later
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+PowerShell 5.1 or later
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Administrator privileges
-</td>
-</tr>
-</table>
 
 </div>
 

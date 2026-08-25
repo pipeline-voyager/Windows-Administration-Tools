@@ -195,9 +195,9 @@ Clone or download the project and place the PowerShell script in a convenient di
 Example:
 
 ```powershell
-git clone https://github.com/pipeline-voyager/junk.git
+git clone https://github.com/pipeline-voyager/Windows-Administration-Tools.git
 
-cd junk/Windows_Admin_Tools/
+cd Windows_Admin_Tools/
 ```
 
 No additional PowerShell modules or external dependencies are required beyond the Windows components used by the toolbox.
